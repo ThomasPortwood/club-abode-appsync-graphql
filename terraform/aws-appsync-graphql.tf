@@ -1,4 +1,4 @@
-resource "aws_appsync_graphql" "club-abode-appsync-graphql" {
+resource "aws_appsync_graphql_api" "club-abode-appsync-graphql" {
   authentication_type = "API_KEY"
   name                = "club-abode-graphql"
 
